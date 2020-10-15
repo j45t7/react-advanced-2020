@@ -1,5 +1,7 @@
+//to use state component name must be uppercase
+//must be in component/function body
+//cannot call conditionally
 import React, { useState } from 'react'
-
 const UseStateBasics = () => {
   const [text, setText] = useState('random title')
   const handleClick = () => {
